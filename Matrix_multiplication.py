@@ -14,5 +14,5 @@ for i in range(len(matA)):
         for k in range(len(matB)):
             result[i][j] += matA[i][k] * matB[k][j]
             
-for res in result:
-    print(res)
+for elements in result:
+    print(elements)
